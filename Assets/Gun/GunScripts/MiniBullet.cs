@@ -10,16 +10,20 @@ public class MiniBullet : Bullet
     [SerializeField] private Rigidbody2D rb; // физика
     [SerializeField] private BoxCollider2D col; // коллизии
 
+   
+
+    
     /// <summary>
     /// Переопределённая логика стрельбы малыми снарядами
     /// </summary>
     /// <param name="direction"></param>
-    internal override void Shoot(Vector2 direction)
+    internal void Shoot(Vector2 d)
     {
         col.enabled = true;
-        transform.up = direction;
-        Destroy(gameObject, 2f);
+        rb.AddForce(d, ForceMode2D.Force);
 
     }
+
+ 
 
 }

@@ -28,7 +28,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4367649202050526342}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -6.13, y: 0.801, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 1
@@ -38,7 +38,7 @@ Transform:
   - {fileID: 4847129748573322355}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!212 &4367649202050526343
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -246,7 +246,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ff57554487e44b429a0e954d9398d91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletForce: 500
   miniBullets:
   - {fileID: 371021882006297168}
   - {fileID: 2891578506965903154}
@@ -279,7 +278,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6169993036835457426}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.0047, y: 0.0189, z: 0}
   m_LocalScale: {x: 1.0304238, y: 0.9604689, z: 0.2}
   m_ConstrainProportionsScale: 1
@@ -287,7 +286,7 @@ Transform:
   - {fileID: 4871092941650135827}
   m_Father: {fileID: 4367649202050526336}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8051032129404595692
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -495,7 +494,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7b0169a4b33a5544b8c8b53f2e75e5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletForce: 500
   miniBullets: []
   exploadBull: {fileID: 4707896781068392111}
   rb: {fileID: 3441780691578463444}
@@ -528,7 +526,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6459276477903284360}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.0047, y: 0.0189, z: 0}
   m_LocalScale: {x: 1.0304238, y: 0.9604689, z: 0.2}
   m_ConstrainProportionsScale: 1
@@ -536,7 +534,7 @@ Transform:
   - {fileID: 8130400828989994708}
   m_Father: {fileID: 4367649202050526336}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2739360923224663070
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -744,7 +742,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7b0169a4b33a5544b8c8b53f2e75e5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletForce: 500
   miniBullets: []
   exploadBull: {fileID: 8221508513504701288}
   rb: {fileID: 7391353078290612270}

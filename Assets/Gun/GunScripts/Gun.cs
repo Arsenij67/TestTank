@@ -10,11 +10,13 @@ public class Gun : MonoBehaviour
     private float buffAngle = 0; // счетчик углового поворота
     private float frameDelay = 0.05f;// время оного кадра
     private float buffTime = 0;// счетчик времени
-    private float muzzleSpeed = 20; // скорость вращения дула: чем больше, тем быстрей
+    private float muzzleSpeed = 40; // скорость вращения дула: чем больше, тем быстрей
     [SerializeField] private Transform start; // начало и конец дула для направления
     [SerializeField] private Transform end;
-    [SerializeField] private Bullet bulletPrefab;
-    [SerializeField] private Slider forceSlider;
+    [SerializeField] private Bullet bulletPrefab; //префаб пули
+    [SerializeField] private Slider forceSlider; // ссылка на слайдер силы
+    [Tooltip("Насколько сильно поворачивается башня в процентах: от 0 до 1. 1 - 90 градусов, 0 - 0 градусов")]
+    [SerializeField] private float rangeRotate = 0.6F; //диапазон поворота
 
 
     // МЕТОДЫ
@@ -40,7 +42,7 @@ public class Gun : MonoBehaviour
    private void RotateMuzzle(Transform muzzle)
     {
         buffAngle += ((muzzleSpeed * Time.deltaTime));
-        muzzle.localRotation = Quaternion.Euler(0, 0, Mathf.Cos(buffAngle) * Mathf.Rad2Deg);
+        muzzle.localRotation = Quaternion.Euler(0, 0, Mathf.Cos(buffAngle) * Mathf.Rad2Deg*rangeRotate);
         
     }
 

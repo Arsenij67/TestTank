@@ -56,25 +56,25 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Constructors\FuturisticTanks\Scripts\Tank.cs" />
-    <Compile Include="Assets\Constructors\FuturisticTanks\Scripts\Constructor.cs" />
-    <Compile Include="Assets\Help\Readme\Scripts\Readme.cs" />
-    <Compile Include="Assets\Scripts\CharacterAudio.cs" />
-    <Compile Include="Assets\Scripts\ParallaxLayer.cs" />
-    <Compile Include="Assets\Scripts\ObjectActivator.cs" />
     <Compile Include="Assets\Scripts\CharacterController2D.cs" />
-    <Compile Include="Assets\Scripts\GameplayTrigger.cs" />
-    <Compile Include="Assets\Unity Technologies\2D Sprite Shape\Extras\Scripts\ConformingSpline.cs" />
-    <Compile Include="Assets\Scripts\MaterialColorSetter.cs" />
-    <Compile Include="Assets\Scripts\LightColorSetter.cs" />
     <Compile Include="Assets\Scripts\OnScreenControls.cs" />
-    <Compile Include="Assets\Scripts\LightIntensityController.cs" />
-    <Compile Include="Assets\Scripts\LightColorController.cs" />
-    <Compile Include="Assets\Scripts\MaterialVectorSetter.cs" />
     <Compile Include="Assets\Scripts\VisibleOnlyDuringNight.cs" />
-    <Compile Include="Assets\Unity Technologies\2D Sprite Shape\Extras\Scripts\NodeAttach.cs" />
-    <Compile Include="Assets\Gun\GunScripts\Gun.cs" />
+    <Compile Include="Assets\Scripts\MaterialVectorSetter.cs" />
     <Compile Include="Assets\Gun\GunScripts\Bullet.cs" />
+    <Compile Include="Assets\Scripts\LightColorController.cs" />
+    <Compile Include="Assets\Scripts\LightColorSetter.cs" />
+    <Compile Include="Assets\Unity Technologies\2D Sprite Shape\Extras\Scripts\ConformingSpline.cs" />
+    <Compile Include="Assets\Constructors\FuturisticTanks\Scripts\Tank.cs" />
+    <Compile Include="Assets\Scripts\ParallaxLayer.cs" />
+    <Compile Include="Assets\Scripts\MaterialColorSetter.cs" />
+    <Compile Include="Assets\Scripts\LightIntensityController.cs" />
+    <Compile Include="Assets\Constructors\FuturisticTanks\Scripts\Constructor.cs" />
+    <Compile Include="Assets\Gun\GunScripts\Gun.cs" />
+    <Compile Include="Assets\Scripts\GameplayTrigger.cs" />
+    <Compile Include="Assets\Scripts\CharacterAudio.cs" />
+    <Compile Include="Assets\Help\Readme\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\ObjectActivator.cs" />
+    <Compile Include="Assets\Unity Technologies\2D Sprite Shape\Extras\Scripts\NodeAttach.cs" />
     <Compile Include="Assets\Gun\GunScripts\MiniBullet.cs" />
   </ItemGroup>
   <ItemGroup>
